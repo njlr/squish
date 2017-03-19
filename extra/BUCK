@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'squishtest',
+  srcs = [
+    'squishtest.cpp',
+  ],
+  deps = [
+    '//:squish',
+  ],
+)
